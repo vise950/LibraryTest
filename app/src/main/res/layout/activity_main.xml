@@ -27,5 +27,25 @@
         android:layout_gravity="center"
         android:text="Isometric activity" />
 
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/view_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="View activity" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/anko_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Anko activity" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/p_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="android p activity" />
 
 </LinearLayout>

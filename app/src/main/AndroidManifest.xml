@@ -30,6 +30,11 @@
         <activity
             android:name=".activity.IsometricActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ViewActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.AnkoActivity" />
+        <activity android:name=".activity.PActivity" />
     </application>
 
 </manifest>

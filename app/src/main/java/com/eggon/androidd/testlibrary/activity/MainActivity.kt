@@ -16,5 +16,8 @@ class MainActivity : AppCompatActivity() {
         diagonal_activity.setOnClickListener { startActivity(Intent(this, DiagonalActivity::class.java)) }
         panorama_activity.setOnClickListener { startActivity(Intent(this, PanoramaActivity::class.java)) }
         isometric_activity.setOnClickListener { startActivity(Intent(this, IsometricActivity::class.java)) }
+        view_activity.setOnClickListener { startActivity(Intent(this, ViewActivity::class.java)) }
+        anko_activity.setOnClickListener { startActivity(Intent(this, AnkoActivity::class.java)) }
+        p_activity.setOnClickListener { startActivity(Intent(this, PActivity::class.java)) }
     }
 }
